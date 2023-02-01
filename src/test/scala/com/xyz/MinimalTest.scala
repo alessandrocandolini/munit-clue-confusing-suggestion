@@ -2,8 +2,12 @@ package com.xyz
 
 import munit.FunSuite
 
-class SomethingTest extends FunSuite:
+class MinimalTest extends FunSuite:
 
+//    test("see the actual compiler error (without macro). Uncomment this to see the compiler error") {
+//      Set(2, 1).sorted
+//    }
+//
 //  test("this test should pass but it fails, uncomment to see it failing") {
 //    assertNoDiff(
 //      compileErrors("Set(2, 1).sorted"),
@@ -29,5 +33,7 @@ class SomethingTest extends FunSuite:
          |""".stripMargin
     )
   }
+
+
 
 
